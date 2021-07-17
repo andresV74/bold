@@ -4,6 +4,7 @@ export const GlobalStyles = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
   }
   *, *::before, *::after {
     box-sizing: inherit;
@@ -24,10 +25,6 @@ export const GlobalStyles = createGlobalStyle`
     width: min(100%, 1440px);
 		margin: 0 auto;
     background: #fff;
-  }
-
-  #app {
-    background: #e5e7ef;
   }
 
 `

@@ -4,7 +4,7 @@ export const HeaderLayout = styled.header`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 100px;
+	height: 130px;
 	padding: 0 50px;
 	background: linear-gradient(to right,#122268 0%,#81395A 100%);
 
