@@ -9,6 +9,10 @@ module.exports = {
 	},
   resolve: {
     extensions: ['.js', '.jsx'],
+		alias: {
+			Components: path.resolve(__dirname, 'src/components'),
+			Data: path.resolve(__dirname, ''),
+		}
   },
 	module: {
 		rules: [
@@ -29,7 +33,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpg|gif|svg|woff|woff2)$/,
         use: [
           { 
             loader: 'file-loader',
