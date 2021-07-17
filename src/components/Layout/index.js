@@ -1,9 +1,12 @@
 import React from 'react'
-import { Header } from './Header'
+import { Header } from '../Header'
+import { Container } from './styles'
 
 export const Layout = ({ children }) => (
 	<React.Fragment>
 		<Header />
-		{children}
+		<Container>
+			{children}
+		</Container>
 	</React.Fragment>
 )
