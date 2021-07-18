@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Card = styled.section`
+	grid-row: 1/3;
 	width: min(27.78vw, 400px);
 	background: #fff;
 	border-radius: 12px;
@@ -8,7 +9,7 @@ export const Card = styled.section`
 `
 
 export const Header = styled.header`
-	height: 50px;
+	height: 60px;
 	padding: 0 20px;
 	background: linear-gradient(to right,#62325E 0%,#B26678 100%);
 `
@@ -28,7 +29,7 @@ export const Content = styled.div`
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	height: 150px;
+	height: 140px;
 `
 
 export const Sales = styled.p`
