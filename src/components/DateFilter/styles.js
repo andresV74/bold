@@ -27,7 +27,7 @@ export const Option = styled.a`
 	&:hover,
 	&.active {
 		font-family: 'Montserrat Medium';
-		background: #969696;
+		background: #E4E5EC;
 	}
 
 `

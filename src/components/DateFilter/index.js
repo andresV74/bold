@@ -14,7 +14,6 @@ export const DateFilter = () => {
 						<li key={date.id}>
 							<Option onClick={async () => {
 								await setDate(date)
-								console.log(this)
 							}
 							}>
 								{date.period}
