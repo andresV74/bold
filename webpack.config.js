@@ -11,6 +11,7 @@ module.exports = {
     extensions: ['.js', '.jsx'],
 		alias: {
 			Components: path.resolve(__dirname, 'src/components'),
+			Context: path.resolve(__dirname, 'src/context'),
 			Data: path.resolve(__dirname, ''),
 		}
   },

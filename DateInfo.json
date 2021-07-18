@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"period": "hoy",
+		"sales": "60.000",
+		"year": "2021"
+	},
+	{
+		"id": 2,
+		"period": "esta semana",
+		"sales": "390.000",
+		"year": "2021"
+	},
+	{
+		"id": 3,
+		"period": "Julio",
+		"sales": "1.560.000",
+		"year": "2021"
+	}
+]
