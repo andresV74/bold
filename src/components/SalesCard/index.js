@@ -3,7 +3,7 @@ import { DateFilterContext } from 'Context/DateFilterContext'
 import Data from 'Data/DateInfo.json'
 
 import { Card, Header, Title, Content, Sales, Date } from './styles'
-import { FiInfo } from "react-icons/fi";
+import { FiInfo } from "react-icons/fi"
 
 
 export const SalesCard = () => {
