@@ -17,7 +17,7 @@ export const Option = styled.a`
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	width: 250px;
+	width: min(17.36vw, 250px);
 	height: 100%;
 	color: #111e6c;
 	border-radius: 20px;

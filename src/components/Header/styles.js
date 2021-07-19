@@ -25,6 +25,7 @@ export const Option = styled.a`
 	align-items: center;
 	gap: 5px;
 	color: #fff;
+	cursor: pointer;
 
 	&:hover {
 		text-decoration: underline;
