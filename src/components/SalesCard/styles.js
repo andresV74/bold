@@ -2,10 +2,14 @@ import styled from 'styled-components'
 
 export const Card = styled.section`
 	grid-row: 1/3;
-	width: min(27.78vw, 400px);
+	width: 100%;
 	background: #fff;
 	border-radius: 12px;
 	overflow: hidden;
+	
+	@media (max-width: 768px) {
+		grid-row: 2/3;
+	}
 `
 
 export const Header = styled.header`
