@@ -6,6 +6,7 @@ import { Layout } from 'Components/Layout'
 import { SalesCard } from 'Components/SalesCard'
 import { DateFilter } from 'Components/DateFilter'
 import { Filter } from 'Components/Filter'
+import { TableComponent } from 'Components/Table'
 
 import { DateFilterContext } from 'Context/DateFilterContext'
 
@@ -21,6 +22,7 @@ export const App = () => {
 				<DateFilter />
 			</DateFilterContext.Provider>
 			<Filter />
+			<TableComponent />
 		</Layout>
 	)
 }

@@ -1,0 +1,29 @@
+[
+	{
+		"id": 1,
+		"transaction": "Cobro exitoso",
+		"date": "04/06/2020 - 17:14:24",
+		"method": "**** **** **** 7711",
+		"boldID": "GZEN23784UBV2",
+		"quantity": "25.000",
+		"ico": "cart"
+	},
+	{
+		"id": 2,
+		"transaction": "Cobro no realizado",
+		"date": "04/06/2020 - 17:14:24",
+		"method": "**** **** **** 7711",
+		"boldID": "GZEN23784UBV2",
+		"quantity": "15.000",
+		"ico": "cart"
+	},
+	{
+		"id": 3,
+		"transaction": "Cobro exitoso",
+		"date": "04/06/2020 - 17:14:24",
+		"method": "**** **** **** 7711",
+		"boldID": "GZEN23784UBV2",
+		"quantity": "25.000",
+		"ico": "link"
+	}
+]
