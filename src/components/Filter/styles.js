@@ -4,6 +4,11 @@ export const FilterComponent = styled.section`
 	position: relative;
 	grid-column: 3/4;
 	grid-row: 2/3;
+
+	@media (max-width: 768px) {
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
 `
 
 export const Button = styled.button`
@@ -17,6 +22,10 @@ export const Button = styled.button`
 	background: #fff;
 	border-radius: 8px;
 	cursor: pointer;
+
+	@media (max-width: 768px) {
+		margin: auto;
+	}
 `
 
 export const Window = styled.div`
@@ -24,17 +33,25 @@ export const Window = styled.div`
 	top: 0;
 	right: 0;
 	width: 350px;
+	height: 0;
 	padding: 15px;
 	background: #fff;
 	border-radius: 10px;
 	box-shadow: 0 3px 11px #0000001f;
 	transition: all .45s ease-in-out;
-	transform: translateX(-250px);
+	transform: translateY(50px);
 	opacity: 0;
+	overflow: hidden;
 
 	&.active {
 		transform: translateX(0);
 		opacity: 1;
+		height: 244px;
+	}
+
+	@media (max-width: 768px) {
+		left: -10px;
+		margin: auto;
 	}
 
 `

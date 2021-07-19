@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const TableContainer = styled.section`
 	grid-column: 1/-1;
 	grid-row: 3/4;
+
+	@media (max-width: 768px) {
+		grid-row: 4/5;
+	}
 `
 
 export const Header = styled.header`
@@ -17,36 +21,43 @@ export const Header = styled.header`
 	border-radius: 12px 12px 0 0;
 `
 
+export const TableWrapper = styled.div`
+	overflow-x: scroll;
+
+	@media (max-width: 768px) {
+		width: calc(100vw - 50px);
+	}
+`
+
 export const Table = styled.table`
-	width: 100%;
+	width: max(100%, 1000px);
 	font-size: 0.875rem;
 	color: #969696;
 	background: #fff;
 	border-collapse: collapse;
-	overflow-x: scroll;
 
 	& thead {
 		height: 60px;
 		border-bottom: 1px solid #969696;
 
 		th:nth-child(1) {
-			width: 23.94vw;
+			width: 23.94%;
 		}
 		
 		th:nth-child(2) {
-			width: 20.4vw;
+			width: 20.4%;
 		}
 		
 		th:nth-child(3) {
-			width: 18.64vw;
+			width: 18.64%;
 		}
 		
 		th:nth-child(4) {
-			width: 19.92vw;
+			width: 19.92%;
 		}
 		
 		th:nth-child(5) {
-			width: 17.1vw;
+			width: 17.1%;
 		}
 		
 	}

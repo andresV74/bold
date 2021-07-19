@@ -8,6 +8,10 @@ export const HeaderLayout = styled.header`
 	padding: 0 50px;
 	background: linear-gradient(to right,#122268 0%,#81395A 100%);
 
+	@media (max-width: 768px) {
+		padding: 0 25px;
+	}
+
 	@media (max-width: 480px) {
 		justify-content: center;
 		flex-wrap: wrap;

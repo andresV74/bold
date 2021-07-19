@@ -5,12 +5,22 @@ export const Section = styled.section`
 	height: 50px;
 	padding: 5px;
 	background: #fff;
+
+	@media (max-width: 768px) {
+		grid-column: 1/2;
+		height: unset;
+	}
 `
 
 export const List = styled.ul`
 	display: flex;
 	justify-content: space-between;
 	height: 100%;
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+		align-items: center;
+	}
 `
 
 export const Option = styled.a`
@@ -28,6 +38,11 @@ export const Option = styled.a`
 	&.active {
 		font-family: 'Montserrat Medium';
 		background: #E4E5EC;
+	}
+
+	@media (max-width: 768px) {
+		width: 250px;
+		height: 35px;
 	}
 
 `
