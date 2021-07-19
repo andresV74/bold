@@ -1,6 +1,6 @@
-# bold
+# bold.co
 
-Test project for Bol.co
+Test project for Bold.co
 ## Building and running on localhost
 
 First install dependencies:
